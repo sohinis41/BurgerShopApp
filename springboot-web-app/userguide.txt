@@ -1,9 +1,19 @@
-Please clone the product to your local and open that product into workspace . You should be able to run it directly.
+Please clone the product to your local and open that product into workspace . 
+You should be able to run it directly.
+ step 1: Create an workspace. Go to terminal at that tab.
+ step 2: git clone https://github.com/sohinis41/BurgerShopApp.git
+ step 3: Once completed, BurgerShopApp folder as workspace in Eclipse.
+ step 4:  Go to File-> Import->Existing project into workspace->Next-> Finish. You should be able to see springbok-we-app.
+  step 5: Go to src/main/java -> com.springboot -> BurgerWebApplication.java
+ step6: once pom dependencies are downloaded, you can run BurgerWebApplication.java as “Spring Boot App”
+
+ step 7: It will launch the application on localhost:8080
+ step8: You can also launch h2-console on localhost:8080/h2-console
 
 1.h2 database settings are default. So,
+Database name=jdbc:h2:mem:testdb
+driver= org.h2.Driver
 username=sa
 password = 
 
-you can also check h2 properties in the application.properties as commented out
-
-2. Run BurgerWebApplication.java as spring boot application.
+you can also check h2 properties in the application.properties as commented out code

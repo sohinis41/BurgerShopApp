@@ -1,6 +1,6 @@
 I have build a very small application project on SpringBoot called "Burger Shop".
 Features- 
-1.Adding Burger Details from "Add Product" to database
+1.Adding Burger Details from "Add Product" tab to database
 2.Viewing all the added Burgers under "All Products" display section.
 3.For every burger, if we click on continue, it will show Buy option along with Burger description.
 4.Login user through "Your Account" tab.
