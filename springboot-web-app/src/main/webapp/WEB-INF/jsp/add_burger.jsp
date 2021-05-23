@@ -8,9 +8,9 @@
 				<div class="panel-body">
 					<form:form modelAttribute="add" method="post"
 						class="form-horizontal">
-						<form:input path="name" type="text" />
-						<form:input path="description" type="text" />
-						<form:input path="price" type="text" />
+						<form:input path="name" type="text" placeholder="Burger Name"/>
+						<form:input path="description" type="text" placeholder ="Burger Description" />
+						<form:input path="price" type="text" placeholder="Set Price"/>
 						<form:button type='success' class="btn btn-success">Add</form:button>
 					</form:form>
 				</div>
