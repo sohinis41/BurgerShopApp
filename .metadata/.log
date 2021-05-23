@@ -83,3 +83,66 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:47:48.014
 !MESSAGE executing callback sts4.classpath.qxadzGEj SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-05-23 20:54:08.186
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:55:18.464
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qxadzGEj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:55:18.464
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qxadzGEj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:55:18.465
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:55:18.465
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qxadzGEj => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-23 20:58:59.589
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.2.0.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.2.0.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-23 20:59:01.166
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.2.0.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.2.0.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:23.034
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:23.034
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6004b592[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=958)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:23.034
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:24.937
+!MESSAGE Boot LS startup time from start to initialized: 1902ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.013
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hWFKGrXjisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.013
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.013
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.013
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.014
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.014
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hWFKGrXj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.015
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.016
+!MESSAGE buffering callback sts4.classpath.hWFKGrXj springboot-web-app false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.016
+!MESSAGE executing callback sts4.classpath.hWFKGrXj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-23 20:59:25.354
+!MESSAGE executing callback sts4.classpath.hWFKGrXj SUCCESS [done]
