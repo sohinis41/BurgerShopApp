@@ -9,6 +9,8 @@ import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.springboot.entities.User;
@@ -54,4 +56,23 @@ public class UserController {
 		}
 		return "redirect:/user/login";
 	}
+	
+	@GetMapping("/update")
+	public String displayUserUpdate(Model model) {
+		User user = new User();
+		model.addAttribute("userupdate", user);
+		return "user_update";
+	}
+	//
+	@PostMapping("/update")
+	public String update(@Valid @ModelAttribute("userupdate") User user, Errors errors, Model model) {
+		model.addAttribute("userupdate", userService.updateUser(user));
+		if (errors.hasErrors()) {
+			return "user_update";
+		}
+		return "redirect:/";
+	}
+	
+	
+	
 }

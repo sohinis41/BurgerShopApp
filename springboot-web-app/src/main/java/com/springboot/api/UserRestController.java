@@ -1,9 +1,12 @@
 package com.springboot.api;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
@@ -40,5 +43,25 @@ public class UserRestController {
 		return new ResponseEntity<User>(newUser, HttpStatus.OK);
 
 	}
+	
+//	@PutMapping(path = "/user/update", consumes = "application/json", produces = "application/json")
+//	@ResponseStatus(HttpStatus.CREATED)
+//	public ResponseEntity<User> update(@RequestBody User user) {
+//		user = userService.updateUser(user);
+//		if (user == null) {
+//			return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
+//		}
+//		return new ResponseEntity<User>(user, HttpStatus.OK);
+//
+//	}
 
+	@PostMapping(path="/user/update" , consumes = "application/json", produces = "application/json")
+	@ResponseStatus(HttpStatus.CREATED)
+	public ResponseEntity<User> userUpdate(@RequestBody User user) {
+		int id = userService.updateUser(user);
+		if (id == 0) {
+			return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<User>(user, HttpStatus.OK);
+	}
 }
